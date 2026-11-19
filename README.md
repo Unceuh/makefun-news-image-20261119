@@ -6,13 +6,11 @@
 
 A newspaper front page summing up Thursday 19 November 2026's world news in one image: the first Trump–Xi–Putin trilateral summit in Shenzhen, GTA VI's worldwide launch, the ICJ's Myanmar genocide ruling, Ukraine's allies meeting in Berlin, Cyclone Akvan nearing India, and Hegseth's visit to Honduras.
 
-## Run it
+## Running it
 
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
+Run it with the output folder set: `MAKEFUN_OUTPUT_DIR=out python3 main.py` (create `out` first with `mkdir -p out`).
 
-## The image
+## What the image shows
 
 A 1024x1024 newspaper front page, "WORLD NEWS", dated Thursday, 19 November 2026. Six numbered stories:
 
@@ -25,13 +23,13 @@ A 1024x1024 newspaper front page, "WORLD NEWS", dated Thursday, 19 November 2026
 
 Footer briefs: NASA to confirm Voyager 1 passed one light-day from Earth; atmospheric river soaks California with a flood watch in Los Angeles; Trump and Putin also meet one-on-one after the APEC plenary.
 
-The image was drawn with Pillow locally (simple shapes and DejaVu text, no photos or copied artwork) and is shipped as `entry.png`.
+Pillow drew the front page locally from simple shapes and DejaVu text — no photos or copied artwork — and the file ships as `entry.png`.
 
-`main.py` is standard library only: it copies `entry.png` beside it to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). It uses no network, so both grader runs write identical bytes.
+The entry program uses only the standard library: it copies the `entry.png` next to it into `$MAKEFUN_OUTPUT_DIR/entry.png` (`/output` by default). With no network, both grader runs produce identical bytes.
 
-## License
+## Licence
 
-MIT — see `LICENSE`.
+MIT licence — see the LICENSE file.
 
 ---
 
