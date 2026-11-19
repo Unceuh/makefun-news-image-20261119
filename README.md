@@ -1,8 +1,8 @@
 # makefun-news-image-20261119
 
-[![Bounty](https://make.fun/badge/bounty/news-image-20261119)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
-[![Rank](https://make.fun/badge/rank/Unceuh/makefun-news-image-20261119)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
-[![Reward](https://make.fun/badge/reward/Unceuh/makefun-news-image-20261119)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![Bounty](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![Rank](https://make.fun/badge/news-image-20261119/Unceuh/makefun-news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![Reward](https://make.fun/badge/news-image-20261119/Unceuh/makefun-news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
 An entry for the make.fun daily news-image bounty. The image is a newspaper
 front page that sums up Thursday 19 November 2026's world news in a single
