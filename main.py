@@ -17,6 +17,7 @@ from pathlib import Path
 
 IMAGE = "entry.png"
 CHUNK = 65536
+PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 
 
 def _sha256(path):
@@ -41,6 +42,9 @@ def main():
     outdir.mkdir(parents=True, exist_ok=True)
     dst = outdir / IMAGE
     data = src.read_bytes()
+    if not data.startswith(PNG_MAGIC):
+        print("error: %s is not a PNG file" % IMAGE, file=sys.stderr)
+        return 1
     dst.write_bytes(data)
     if _sha256(dst) != _sha256(src):
         print("error: copied file failed its checksum", file=sys.stderr)
